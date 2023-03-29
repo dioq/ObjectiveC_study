@@ -13,6 +13,7 @@
 		3A70005F29D31412008C5099 /* SerializeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70005C29D31412008C5099 /* SerializeData.m */; };
 		3A70006529D31460008C5099 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70006129D31460008C5099 /* FileUtil.m */; };
 		3A70006629D31460008C5099 /* MyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70006429D31460008C5099 /* MyManager.m */; };
+		3A70006A29D31C2E008C5099 /* Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70006929D31C2E008C5099 /* Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,9 @@
 		3A70006229D31460008C5099 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
 		3A70006329D31460008C5099 /* MyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
 		3A70006429D31460008C5099 /* MyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
+		3A70006829D31C2E008C5099 /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		3A70006929D31C2E008C5099 /* Random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Random.m; sourceTree = "<group>"; };
+		3A70008329D402FA008C5099 /* files.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = files.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		3A70002929D2ACB2008C5099 /* ObjectiveC_study */ = {
 			isa = PBXGroup;
 			children = (
+				3A70006729D31C1C008C5099 /* random */,
 				3A70006029D3143A008C5099 /* searchFile */,
 				3A70003129D2ACE6008C5099 /* regular */,
 				3A70005A29D31412008C5099 /* serialize */,
@@ -93,8 +98,8 @@
 		3A70005729D31412008C5099 /* binary */ = {
 			isa = PBXGroup;
 			children = (
-				3A70005829D31412008C5099 /* CryptoUtil.m */,
 				3A70005929D31412008C5099 /* CryptoUtil.h */,
+				3A70005829D31412008C5099 /* CryptoUtil.m */,
 			);
 			path = binary;
 			sourceTree = "<group>";
@@ -111,12 +116,22 @@
 		3A70006029D3143A008C5099 /* searchFile */ = {
 			isa = PBXGroup;
 			children = (
+				3A70008329D402FA008C5099 /* files.json */,
 				3A70006229D31460008C5099 /* FileUtil.h */,
 				3A70006129D31460008C5099 /* FileUtil.m */,
 				3A70006329D31460008C5099 /* MyManager.h */,
 				3A70006429D31460008C5099 /* MyManager.m */,
 			);
 			path = searchFile;
+			sourceTree = "<group>";
+		};
+		3A70006729D31C1C008C5099 /* random */ = {
+			isa = PBXGroup;
+			children = (
+				3A70006829D31C2E008C5099 /* Random.h */,
+				3A70006929D31C2E008C5099 /* Random.m */,
+			);
+			path = random;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A70006529D31460008C5099 /* FileUtil.m in Sources */,
+				3A70006A29D31C2E008C5099 /* Random.m in Sources */,
 				3A70003429D2AD01008C5099 /* Regular.m in Sources */,
 				3A70002B29D2ACB2008C5099 /* main.m in Sources */,
 				3A70005E29D31412008C5099 /* CryptoUtil.m in Sources */,

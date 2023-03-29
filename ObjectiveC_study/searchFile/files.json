@@ -1,0 +1,38 @@
+{
+    "search":[
+        {
+            "path":"/Documents/MMappedKV/",
+            "fileName":"mmsetting.archive.wxid_.+"
+        },
+        {
+            "path":"/Documents/",
+            "fileName":"WCDB_Contact.sqlite"
+        },
+        {
+            "path":"/Library/WechatPrivate/host/",
+            "fileName":".+"
+        }
+    ],
+    "search1":[
+        {
+            "path":"/Documents/MMappedKV/",
+            "fileName":"mmsetting.archive.wxid_.+"
+        },
+        {
+            "path":"/Documents/",
+            "fileName":"[a-zA-Z1-9][a-zA-Z0-9]{31}",
+            "recursion": 0,
+            "next":
+            {
+                "path":"/DB/",
+                "fileName":"WCDB_Contact.sqlite",
+                "recursion": 0
+            }
+        },
+        {
+            "path":"/Library/WechatPrivate/host/",
+            "fileName":".+",
+            "recursion": 1
+        }
+    ]
+}

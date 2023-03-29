@@ -22,7 +22,7 @@
 
 // 开始工作
 -(void)start {
-    NSData *jsonData = [[NSData alloc] initWithContentsOfFile:@"/Users/dio/Repository/FileTraverse/FileTraverse/files.json"];
+    NSData *jsonData = [[NSData alloc] initWithContentsOfFile:@"/Users/dio/Repository/ObjectiveC_study/ObjectiveC_study/searchFile/files.json"];
     NSError *error;
     NSDictionary *pathDict = [NSJSONSerialization JSONObjectWithData:jsonData
                                                             options:NSJSONReadingMutableContainers
