@@ -9,12 +9,14 @@
 #import "Regular.h"
 #import "MyManager.h"
 #import "Random.h"
+#import "Parse.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 //        [[Random new] start];
 //        [[Regular new] start];
-        [[MyManager sharedManager] start];
+//        [[MyManager sharedManager] start];
+        [[Parse new] parse];
     }
     return 0;
 }
